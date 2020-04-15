@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using Plugin.TextToSpeech;
 using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using System.Text;
+using System.Threading;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -22,14 +14,80 @@ namespace ITalentPortfolio.Pages
     /// </summary>
     public sealed partial class TripPage : Page
     {
+        private bool _speechStarted = false;
+        private CancellationToken _cancellationToken;
+        private CancellationTokenSource _cancellationTokenSource;
+
         public TripPage()
         {
             this.InitializeComponent();
+
+            if (_cancellationTokenSource != null)
+            {
+                _cancellationTokenSource.Cancel();
+            }
         }
 
-        private void textToSpeechButton_Click(object sender, RoutedEventArgs e)
+        private async void textToSpeechButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
+            if (!_speechStarted)
+            {
+                _speechStarted = true;
+                var languages = await CrossTextToSpeech.Current.GetInstalledLanguages();
+                var language = languages.FirstOrDefault(l => l.Language.Equals("nl-BE"));
+                var text = GetCompleteText();
 
+                _cancellationTokenSource = new CancellationTokenSource();
+                _cancellationToken = _cancellationTokenSource.Token;
+
+                await CrossTextToSpeech.Current.Speak(text, language, 1, 1, 1, _cancellationToken);
+            }
+            else
+            {
+                _speechStarted = false;
+                _cancellationTokenSource.Cancel();
+            }
+        }
+
+        private string GetCompleteText()
+        {
+            var wait = " ... ";
+            var sb = new StringBuilder();
+            sb.Append("Welcome to the section about the study trip to Berlin. ... ");
+            sb.Append(Application.Current.Resources["descriptionTrip"].ToString());
+            sb.Append(wait);
+            sb.Append("Next up: the report of the activity. ...");
+            sb.Append(Application.Current.Resources["reportTrip-01"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reportTrip-02"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reportTrip-03"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reportTrip-04"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reportTrip-05"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reportTrip-06"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reportTrip-07"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reportTrip-08"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reportTrip-09"].ToString());
+            sb.Append(wait);
+            sb.Append("My personal reflection:");
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reflectionTrip-01"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reflectionTrip-02"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reflectionTrip-03"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reflectionTrip-04"].ToString());
+            sb.Append(wait);
+            sb.Append(Application.Current.Resources["reflectionTrip-05"].ToString());
+
+            return sb.ToString();
         }
     }
 }

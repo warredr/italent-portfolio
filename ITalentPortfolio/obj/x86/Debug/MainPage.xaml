@@ -16,7 +16,7 @@
                          IsBackEnabled="False"
                          IsBackButtonVisible="Collapsed">
             <NavigationView.MenuItems>
-                <NavigationViewItem Tag="home" Content="Wie ben ik?">
+                <NavigationViewItem Tag="home" Content="Who am I">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE946;"/>
                     </NavigationViewItem.Icon>
@@ -27,17 +27,17 @@
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE716;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem Tag="studentjob" Content="Zomerwerk .NET Ontwikkelaar">
+                <NavigationViewItem Tag="studentjob" Content=".NET Developer">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE756;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem Tag="seminar" Content="Blazor - Seminarie">
+                <NavigationViewItem Tag="seminar" Content="Blazor - Seminary">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE736;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem Tag="trip" Content="Studentenreis Berlijn">
+                <NavigationViewItem Tag="trip" Content="Study Trip Berlin">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE709;"/>
                     </NavigationViewItem.Icon>

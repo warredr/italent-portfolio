@@ -37,32 +37,41 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\berlijn-1.jpg">
-      <PackagePath>Assets\Images\berlijn-1.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\trip-1.jpg">
+      <PackagePath>Assets\Images\trip-1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\berlijn-3.jpg">
-      <PackagePath>Assets\Images\berlijn-3.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\trip-3.jpg">
+      <PackagePath>Assets\Images\trip-3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\hackathon.jpg">
-      <PackagePath>Assets\Images\hackathon.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\seminar-1.jpg">
+      <PackagePath>Assets\Images\seminar-1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\profile_small.jpg">
-      <PackagePath>Assets\Images\profile_small.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\hackathon-1.jpg">
+      <PackagePath>Assets\Images\hackathon-1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\berlijn-2.png">
-      <PackagePath>Assets\Images\berlijn-2.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\hackathon-2.jpg">
+      <PackagePath>Assets\Images\hackathon-2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\blazor-code.png">
-      <PackagePath>Assets\Images\blazor-code.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\hackathon-3.jpg">
+      <PackagePath>Assets\Images\hackathon-3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\sertech-application.png">
-      <PackagePath>Assets\Images\sertech-application.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\profile.jpg">
+      <PackagePath>Assets\Images\profile.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\sertech-code.png">
-      <PackagePath>Assets\Images\sertech-code.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\trip-2.png">
+      <PackagePath>Assets\Images\trip-2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\sertech-wireframe.png">
-      <PackagePath>Assets\Images\sertech-wireframe.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\seminar-2.png">
+      <PackagePath>Assets\Images\seminar-2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\studentjob-3.png">
+      <PackagePath>Assets\Images\studentjob-3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\studentjob-2.png">
+      <PackagePath>Assets\Images\studentjob-2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\studentjob-1.png">
+      <PackagePath>Assets\Images\studentjob-1.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>

@@ -8,8 +8,56 @@
     mc:Ignorable="d"
     Background="White">
 
-    <Grid>
 
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="50px"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50px"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button x:ConnectionId='2' x:Name="textToSpeechButton" Grid.Row="0" Grid.Column="2"
+                                                 HorizontalAlignment="right"
+                Foreground="White" Background="#58A018" Width="100"
+                ToolTipService.ToolTip="Read the text aloud.">
+            <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE7F3;"/>
+        </Button>
+        
+        <Rectangle  Margin="20" Grid.Column="0"
+                        RadiusX="20" RadiusY="20" Grid.Row="1" 
+                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="ms-appx:///Assets/Images/profile.jpg"
+                                Stretch="UniformToFill"/>
+                </Rectangle.Fill>
+            </Rectangle>
+
+
+        <ScrollViewer Grid.Column="2" Grid.Row="1">
+            <StackPanel Padding="0 20 0 0">
+                <TextBlock Text="Who am I?"
+                           HorizontalAlignment="Center" FontSize="25"
+                           FontWeight="Bold" Foreground="#58A018"/>
+                <NavigationViewItemSeparator/>
+
+                <TextBlock Text="{StaticResource introduction-01}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                <TextBlock Text="{StaticResource introduction-02}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                <TextBlock Text="{StaticResource introduction-03}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                <TextBlock Text="{StaticResource introduction-04}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                <TextBlock Text="{StaticResource introduction-05}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
+
 </Page>
 

@@ -145,15 +145,18 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Images\berlijn-1.jpg" />
-    <Content Include="Assets\Images\berlijn-2.png" />
-    <Content Include="Assets\Images\berlijn-3.jpg" />
-    <Content Include="Assets\Images\blazor-code.png" />
-    <Content Include="Assets\Images\hackathon.jpg" />
-    <Content Include="Assets\Images\profile_small.jpg" />
-    <Content Include="Assets\Images\sertech-application.png" />
-    <Content Include="Assets\Images\sertech-code.png" />
-    <Content Include="Assets\Images\sertech-wireframe.png" />
+    <Content Include="Assets\Images\trip-1.jpg" />
+    <Content Include="Assets\Images\trip-2.png" />
+    <Content Include="Assets\Images\trip-3.jpg" />
+    <Content Include="Assets\Images\seminar-1.jpg" />
+    <Content Include="Assets\Images\seminar-2.png" />
+    <Content Include="Assets\Images\hackathon-1.jpg" />
+    <Content Include="Assets\Images\hackathon-2.jpg" />
+    <Content Include="Assets\Images\hackathon-3.jpg" />
+    <Content Include="Assets\Images\profile.jpg" />
+    <Content Include="Assets\Images\studentjob-3.png" />
+    <Content Include="Assets\Images\studentjob-2.png" />
+    <Content Include="Assets\Images\studentjob-1.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-125.png" />
     <Content Include="Assets\LargeTile.scale-150.png" />
@@ -245,6 +248,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.9</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugins.TextToSpeech">
+      <Version>4.0.0.7</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup />

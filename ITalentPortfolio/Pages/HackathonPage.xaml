@@ -10,29 +10,43 @@
 
     <ScrollViewer>
         <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="30px"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.5*"/>
                 <ColumnDefinition Width="50px"/>
                 <ColumnDefinition Width="0.5*"/>
             </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50px"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
-            <Button x:Name="textToSpeechButton"
-                    HorizontalAlignment="Right" Grid.Column="2"
-                    Grid.Row="0" ToolTipService.ToolTip="Start of stop het voorlezen van de tekst."
-                    Click="textToSpeechButton_Click" Background="#58A018" Foreground="White">
-                <StackPanel>
-                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE7F3;"/>
-                </StackPanel>
+            <Button x:Name="textToSpeechButton" Grid.Row="0" Grid.Column="2"
+                Click="textToSpeechButton_Click" HorizontalAlignment="right"
+                Foreground="White" Background="#58A018" Width="100"
+                ToolTipService.ToolTip="Read the text aloud.">
+                <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE7F3;"/>
             </Button>
+
+            <Grid Grid.Column="0" Padding="30" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition Height="0.1*"/>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition Height="0.1*"/>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition Height="0.1*"/>
+                </Grid.RowDefinitions>
+
+                <Image Source="ms-appx:///Assets/Images/hackathon-2.jpg" Grid.Row="0"/>
+                <Image Source="ms-appx:///Assets/Images/hackathon-1.jpg" Grid.Row="2" />
+                <Image Source="ms-appx:///Assets/Images/hackathon-3.jpg" Grid.Row="4"/>
+
+            </Grid>
 
             <StackPanel Grid.Column="2" Grid.Row="1"
                         Padding="0 20 0 0">
                 <StackPanel>
-                    <TextBlock Text="Omschrijving"
+                    <TextBlock Text="Description"
                            HorizontalAlignment="Center" FontSize="25"
                            FontWeight="Bold" Foreground="#58A018"/>
                     <NavigationViewItemSeparator/>
@@ -42,7 +56,7 @@
 
 
                 <StackPanel Padding="0 30 0 0">
-                    <TextBlock Text="Verslag"
+                    <TextBlock Text="Report"
                            HorizontalAlignment="Center" FontSize="25"
                            FontWeight="Bold" Foreground="#58A018"/>
                     <NavigationViewItemSeparator/>
@@ -61,7 +75,7 @@
                 </StackPanel>
 
                 <StackPanel Padding="0 30 0 0">
-                    <TextBlock Text="Reflectie"
+                    <TextBlock Text="Reflection"
                            HorizontalAlignment="Center" FontSize="25"
                            FontWeight="Bold" Foreground="#58A018"/>
                     <NavigationViewItemSeparator/>

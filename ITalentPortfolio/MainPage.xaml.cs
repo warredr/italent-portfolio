@@ -79,7 +79,7 @@ namespace ITalentPortfolio
 
         private async void DisplayCannotNavigateDialog()
         {
-            ContentDialog cannotNavigate = new ContentDialog()
+            var cannotNavigate = new ContentDialog()
             {
                 Title = "Page not found",
                 Content = "Could not navigate to the requested page. Please try again.",

@@ -69,7 +69,7 @@ C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\obj\x86\Debug\MultipleQ
 C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Resources\StringResources.xbf
-C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Plugin.TextToSpeech.dll
 C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\obj\x86\Debug\Resources\StringResources.xaml
 C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\obj\x86\Debug\Resources\StringResources.xbf
+C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Plugin.TextToSpeech.dll
 C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\obj\x86\Debug\Plugin.TextToSpeech.pri.xml

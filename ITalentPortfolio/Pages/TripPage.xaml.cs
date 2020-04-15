@@ -26,5 +26,10 @@ namespace ITalentPortfolio.Pages
         {
             this.InitializeComponent();
         }
+
+        private void textToSpeechButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

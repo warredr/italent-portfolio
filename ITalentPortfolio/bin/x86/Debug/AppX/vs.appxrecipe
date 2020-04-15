@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>692008BB29E44A9087850E883FF4AB1D0C235DBA069539B4743724B6D948B265</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>1EADBFE1897DC46C5FE9F671049DC5C58BAC029728F9CE9F62556C76CC8288A2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7ee17da5-8fb5-4832-962c-e403a964c81a_1.0.0.0_x86__zxgbp8831dtq2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7ee17da5-8fb5-4832-962c-e403a964c81a_zxgbp8831dtq2!App</RegisteredUserModeAppID>
     <RegisteredPackageID>7ee17da5-8fb5-4832-962c-e403a964c81a</RegisteredPackageID>
@@ -30,21 +30,319 @@
     <AppXManifest Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-15T10:36:48.864</Modified>
+      <Modified>2020-04-15T12:34:09.670</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\ITalentPortfolio.exe">
       <PackagePath>entrypoint\ITalentPortfolio.exe</PackagePath>
-      <Modified>2020-04-15T10:36:47.873</Modified>
+      <Modified>2020-04-15T12:34:08.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-07-22T13:01:14.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\.nuget\packages\xam.plugins.texttospeech\4.0.0.7\lib\uap10.0.15063\Plugin.TextToSpeech.dll">
+      <PackagePath>Plugin.TextToSpeech.dll</PackagePath>
+      <Modified>2018-05-15T23:36:44.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\berlijn-1.jpg">
+      <PackagePath>Assets\Images\berlijn-1.jpg</PackagePath>
+      <Modified>2020-04-15T11:28:34.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\berlijn-3.jpg">
+      <PackagePath>Assets\Images\berlijn-3.jpg</PackagePath>
+      <Modified>2020-04-15T11:28:34.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\hackathon.jpg">
+      <PackagePath>Assets\Images\hackathon.jpg</PackagePath>
+      <Modified>2020-04-15T11:28:34.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\profile_small.jpg">
+      <PackagePath>Assets\Images\profile_small.jpg</PackagePath>
+      <Modified>2020-04-15T11:28:34.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\berlijn-2.png">
+      <PackagePath>Assets\Images\berlijn-2.png</PackagePath>
+      <Modified>2020-04-15T11:28:34.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\blazor-code.png">
+      <PackagePath>Assets\Images\blazor-code.png</PackagePath>
+      <Modified>2020-04-15T11:28:34.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\sertech-application.png">
+      <PackagePath>Assets\Images\sertech-application.png</PackagePath>
+      <Modified>2020-04-15T11:28:34.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\sertech-code.png">
+      <PackagePath>Assets\Images\sertech-code.png</PackagePath>
+      <Modified>2020-04-15T11:28:34.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Images\sertech-wireframe.png">
+      <PackagePath>Assets\Images\sertech-wireframe.png</PackagePath>
+      <Modified>2020-04-15T11:28:34.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-04-15T10:44:14.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.473</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\StoreLogo.backup.png">
+      <PackagePath>Assets\StoreLogo.backup.png</PackagePath>
+      <Modified>2020-04-15T10:44:14.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-15T10:44:14.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -52,35 +350,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\ITalentPortfolio.xr.xml">
       <PackagePath>ITalentPortfolio.xr.xml</PackagePath>
-      <Modified>2020-04-15T10:30:30.782</Modified>
+      <Modified>2020-04-15T12:32:39.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-15T10:36:47.631</Modified>
+      <Modified>2020-04-15T12:34:08.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-15T10:36:47.632</Modified>
+      <Modified>2020-04-15T12:34:08.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Pages\HackathonPage.xbf">
       <PackagePath>Pages\HackathonPage.xbf</PackagePath>
-      <Modified>2020-04-15T10:36:47.632</Modified>
+      <Modified>2020-04-15T12:34:08.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Pages\HomePage.xbf">
       <PackagePath>Pages\HomePage.xbf</PackagePath>
-      <Modified>2020-04-15T10:36:47.632</Modified>
+      <Modified>2020-04-15T12:34:08.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Pages\SeminarPage.xbf">
       <PackagePath>Pages\SeminarPage.xbf</PackagePath>
-      <Modified>2020-04-15T10:36:47.632</Modified>
+      <Modified>2020-04-15T12:34:08.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Pages\StudentJobPage.xbf">
       <PackagePath>Pages\StudentJobPage.xbf</PackagePath>
-      <Modified>2020-04-15T10:36:47.632</Modified>
+      <Modified>2020-04-15T12:34:08.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Pages\TripPage.xbf">
       <PackagePath>Pages\TripPage.xbf</PackagePath>
-      <Modified>2020-04-15T10:36:47.632</Modified>
+      <Modified>2020-04-15T12:34:08.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Resources\StringResources.xbf">
+      <PackagePath>Resources\StringResources.xbf</PackagePath>
+      <Modified>2020-04-15T12:34:07.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -88,11 +390,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-15T10:34:44.015</Modified>
+      <Modified>2020-04-15T11:54:53.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\drees\Desktop\ITalentPortfolio\ITalentPortfolio\bin\x86\Debug\Core\ITalentPortfolio.exe">
       <PackagePath>ITalentPortfolio.exe</PackagePath>
-      <Modified>2020-04-15T10:36:48.845</Modified>
+      <Modified>2020-04-15T12:34:09.649</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

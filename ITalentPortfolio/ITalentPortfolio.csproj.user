@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\drees\Desktop\x-factor.png</Source>
+    <SmallTileSource>C:\Users\drees\Desktop\x-factor.png</SmallTileSource>
+    <MediumTileSource>C:\Users\drees\Desktop\x-factor.png</MediumTileSource>
+    <WideTileSource>C:\Users\drees\Desktop\x-factor.png</WideTileSource>
+    <LargeTileSource>C:\Users\drees\Desktop\x-factor.png</LargeTileSource>
+    <AppIconSource>C:\Users\drees\Desktop\x-factor.png</AppIconSource>
+    <SplashScreenSource>C:\Users\drees\Desktop\x-factor.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\drees\Desktop\x-factor.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

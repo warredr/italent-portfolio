@@ -1,0 +1,82 @@
+﻿<Page
+    x:Class="ITalentPortfolio.Pages.SeminarPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ITalentPortfolio.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <ScrollViewer>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30px"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="50px"/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:ConnectionId='2' x:Name="textToSpeechButton"
+                    HorizontalAlignment="Right" Grid.Column="2"
+                    Grid.Row="0" ToolTipService.ToolTip="Start of stop het voorlezen van de tekst."
+                                                     Background="#58A018" Foreground="White">
+                <StackPanel>
+                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE7F3;"/>
+                </StackPanel>
+            </Button>
+
+            <StackPanel Grid.Column="2" Grid.Row="1"
+                        Padding="0 20 0 0">
+                <StackPanel>
+                    <TextBlock Text="Omschrijving"
+                           HorizontalAlignment="Center" FontSize="25"
+                           FontWeight="Bold" Foreground="#58A018"/>
+                    <NavigationViewItemSeparator/>
+                    <TextBlock Text="{StaticResource descriptionHackathon}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                </StackPanel>
+
+
+                <StackPanel Padding="0 30 0 0">
+                    <TextBlock Text="Verslag"
+                           HorizontalAlignment="Center" FontSize="25"
+                           FontWeight="Bold" Foreground="#58A018"/>
+                    <NavigationViewItemSeparator/>
+                    <TextBlock Text="{StaticResource reportHackathon-01}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                    <TextBlock Text="{StaticResource reportHackathon-02}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                    <TextBlock Text="{StaticResource reportHackathon-03}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                    <TextBlock Text="{StaticResource reportHackathon-04}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                    <TextBlock Text="{StaticResource reportHackathon-05}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                    <TextBlock Text="{StaticResource reportHackathon-06}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                </StackPanel>
+
+                <StackPanel Padding="0 30 0 0">
+                    <TextBlock Text="Reflectie"
+                           HorizontalAlignment="Center" FontSize="25"
+                           FontWeight="Bold" Foreground="#58A018"/>
+                    <NavigationViewItemSeparator/>
+                    <TextBlock Text="{StaticResource reflectionHackathon-01}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                    <TextBlock Text="{StaticResource reflectionHackathon-02}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                    <TextBlock Text="{StaticResource reflectionHackathon-03}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                    <TextBlock Text="{StaticResource reflectionHackathon-04}"
+                           TextWrapping="Wrap" Padding="20" FontSize="20"/>
+                </StackPanel>
+            </StackPanel>
+
+        </Grid>
+    </ScrollViewer>
+</Page>
+
